@@ -40,7 +40,7 @@ function getHeight(node) {
         return -1; // current node is unbalanced
     }
 
-    return Math.max(leftHeight, rightHeight) + 1;
+    return Math.max(leftHeight, rightHeight) + 1; //check the whole tree with the root
 }
 
 // @lc code=end
